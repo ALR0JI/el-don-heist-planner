@@ -14,7 +14,7 @@ Project description to be completed.
 
 ## Project structure
 
-To be defined.
+To be defined. 
 
 ## How to run
 
