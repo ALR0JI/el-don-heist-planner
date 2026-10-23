@@ -1,4 +1,4 @@
-package dominio.modelo;
+package model;
 
 
 public enum TUso {

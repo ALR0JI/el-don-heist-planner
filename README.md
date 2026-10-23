@@ -1,21 +1,38 @@
 
-# PROP — Subgrup 12.2
+# PROP — Subgrupo 12.2
 
-Project developed for the PROP course at FIB - UPC.
+Proyecto desarrollado para la asignatura PROP de la FIB - UPC.
 
-## Description
+## Descripción
 
-Project description to be completed.
+Descripción del proyecto pendiente de completar.
 
-## Technologies
+## Tecnologías
 
 - Java
-- Object-Oriented Programming (OOP)
+- Programación orientada a objetos (POO)
+- Swing (frontend)
 
-## Project structure
+## Estructura del proyecto
 
-To be defined.
+El proyecto se divide en un `backend` (lógica de dominio y datos en memoria) y un `frontend` (interfaz Swing). El frontend depende del backend; el backend no conoce Swing.
 
-## How to run
+```
+backend/src/main/
+  model/   entidades, enumerados y clases de solo datos
+  uc/      controladores de caso de uso (XxxUC) y algoritmos
+  ctrl/    controladores de datos (CtrlX) y FactoriaCtrl
+backend/src/test/
+  model/ uc/ integracion/   tests, en el mismo paquete que la clase que prueban
+frontend/src/main/
+  presentacion/   Main, CtrlPresentacion y las vistas Swing
+ejemplos/         ficheros de entrada con el formato del enunciado
+```
 
-Instructions to be added.
+## Cómo ejecutarlo
+
+```
+make compile   # compila backend en out/backend y frontend en out/frontend
+make run       # compila y lanza presentacion.Main
+make clean     # borra out/
+```
