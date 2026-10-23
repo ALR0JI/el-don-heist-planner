@@ -1,4 +1,4 @@
-package model;
+package main.model;
 
 public class PlantillaRol{
     private final Mision mision; //nunca se pueden cambiar por eso el final
