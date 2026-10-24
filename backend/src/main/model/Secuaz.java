@@ -1,4 +1,4 @@
-package dominio.modelo;
+package main.model;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;

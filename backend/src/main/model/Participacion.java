@@ -1,5 +1,5 @@
 
-package dominio.modelo;
+package main.model;
 
 public class Participacion {
 
